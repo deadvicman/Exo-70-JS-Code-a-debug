@@ -1,27 +1,26 @@
-let main = document.getElementById(main);
+let main = document.getElementById("main");
 
-main.id = "main2";
+let main2 = document.createElement("div");
 
-main.style.display = "hidden";
+main.style.display = "flex";
 
-document.getElementById('main') = "Mon nouveau texte !";
+main.innerHtml = "Mon nouveau texte !";
 
 let html = main.innerHTLM;
 
 alert(html);
 
-if(html) {
+if (html) {
     console.log(html);
-}
-else {
-    let test = document.getElementParId('test');
-    if(test) {
+} else {
+    let test = document.getElementById('test');
+    if (test) {
         alert(test);
     }
 }
 
 
-let main = getElementById('main');
-main[style][display] = "block";
+
+main.style.display = "block";
 
 
